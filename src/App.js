@@ -1,9 +1,16 @@
+import Header from './containers/Header';
+import Main from './containers/Main';
+import Footer from './containers/Footer';
 
 function App() {
   return (
-    <div className="App">
-      Homepage
-    </div>
+    <>
+      <Header></Header>
+      <Main>
+
+      </Main>
+      <Footer></Footer>
+    </>
   );
 }
 
